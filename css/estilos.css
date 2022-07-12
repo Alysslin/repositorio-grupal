@@ -5,7 +5,7 @@ body {
 }
 
 div{
-    width: 50%;
+    width: 48%;
 }
 
 .Deric .Alysson{
@@ -15,10 +15,20 @@ div{
     align-content: space-around;
 }
 
+.Deric {
+    background-color: black;
+    color: white;
+    border: 2px solid aqua;
+}
+
 .titulo{
     width: 100%;
     height: 20px;
     margin-bottom: 50px;
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;;
 }
 
 td{
@@ -35,6 +45,7 @@ header{
     border: 2px solid black;
     max-width: 500px;
     width: 100%;
+    padding-bottom: 20px;;
 }
 
 .contenedor{
@@ -45,10 +56,17 @@ header{
 
 .informacion{
     width: 50%;
+    font-family: "Arial";
+}
+
+.contenedor-imagen{
+    text-align: center;
+    display: flex;
+    width: 50%;
 }
 
 .imagen{
-    width: 50%;
+    width: 80%;
 }
 
 tr{
@@ -59,12 +77,6 @@ tr{
     flex-direction: row;
 }
 
-p{
-    color: brown;
-    text-align: justify;
-}
-
-
 .parrafo
 {
 font-family: fantasy;
@@ -73,3 +85,7 @@ color: #48C9B0;
 text-decoration: blink;
 }
 
+.informacion{
+    color: white;
+    margin: 30px;
+}
