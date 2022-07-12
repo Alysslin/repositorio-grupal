@@ -14,10 +14,13 @@ header{
 }
 
 table{
+    border: 2px solid black;
+    max-width: 500px;
     width: 100%;
 }
 
 tr{
+    border: 3px solid blueviolet;
     width: 100%;
     display: flex;
     margin: auto;
