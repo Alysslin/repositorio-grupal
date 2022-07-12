@@ -46,9 +46,36 @@ p{
 
 .parrafo
 {
-font-family: fantasy;
+font-family: Bradley Hand;
 text-align: justify;
-color: #48C9B0;
+background: darkgrey;
+color: #07017A;
 text-decoration: blink;
 }
+.parrafo2
+{
+   font-family: Bradley Hand;
+text-align: justify;
+background: darkblue;
+color: darkgrey;
+text-decoration: blink;
+}
+.parrafo3
+{
+font-family: fantasy;
+font-size: 45px;
+text-align: center;
+background: darkgoldenrod;
+color: darkred;
+text-decoration: underline wavy black; 
 
+}
+img
+{
+  border: 1px solid #ddd;
+  border-radius: 69px;
+  padding: 10px;
+  width: 200px;
+  
+
+}
