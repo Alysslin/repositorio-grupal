@@ -8,11 +8,17 @@ div{
     width: 50%;
 }
 
-.Deric{
+.Deric .Alysson{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: space-around;
+}
+
+.titulo{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 50px;
 }
 
 td{
@@ -24,10 +30,25 @@ header{
     width: 100%;
 }
 
-table{
+.comandos{
+    margin: 0 auto;
     border: 2px solid black;
     max-width: 500px;
     width: 100%;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    align-content: ;
+}
+
+.informacion{
+    width: 50%;
+}
+
+.imagen{
+    width: 50%;
 }
 
 tr{
