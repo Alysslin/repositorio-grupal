@@ -15,6 +15,11 @@ div{
     align-content: space-around;
 }
 
+.Alysson{
+    background-color: #07017A;
+    border: 3px solid blue;
+}
+
 .Deric {
     background-color: black;
     color: white;
@@ -51,7 +56,8 @@ header{
 .contenedor{
     display: flex;
     width: 100%;
-    align-content: ;
+    align-content:center ;
+    border
 }
 
 .informacion{
@@ -62,7 +68,7 @@ header{
 .contenedor-imagen{
     text-align: center;
     display: flex;
-    width: 50%;
+    width: 45%;
 }
 
 .imagen{
@@ -102,13 +108,8 @@ background: darkgoldenrod;
 color: darkred;
 text-decoration: underline wavy black; 
 
-<<<<<<< HEAD
-.informacion{
-    color: white;
-    margin: 30px;
 }
-=======
-}
+
 img
 {
   border: 1px solid #ddd;
@@ -118,4 +119,17 @@ img
   
 
 }
->>>>>>> 0c91db7fde0afce03f6fa402997495666b25f0e2
+
+
+.verMas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.articulos{
+    width: 50px;
+    padding: 10px;
+}
