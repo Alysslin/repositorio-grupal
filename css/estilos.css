@@ -15,6 +15,11 @@ div{
     align-content: space-around;
 }
 
+.Alysson{
+    background-color: #07017A;
+    border: 3px solid blue;
+}
+
 .Deric {
     background-color: black;
     color: white;
@@ -48,13 +53,15 @@ header{
     padding-bottom: 20px;;
 }
 
-.contenedor{
+.contenedor
+{
     display: flex;
     width: 100%;
-    align-content: ;
+    align-content:center ;
 }
 
-.informacion{
+.informacion
+{
     width: 50%;
     font-family: "Arial";
 }
@@ -62,11 +69,11 @@ header{
 .contenedor-imagen{
     text-align: center;
     display: flex;
-    width: 50%;
+    width: 45%;
 }
 
 .imagen{
-    width: 80% ;
+    width: 80%;
 }
 
 tr{
@@ -86,14 +93,16 @@ tr{
 {
 font-family: Bradley Hand;
 text-align: justify;
-color: black;
+background: darkgrey;
+color: #07017A;
 text-decoration: blink;
 }
 .parrafo2
 {
    font-family: Bradley Hand;
 text-align: justify;
-color: black;
+background: darkblue;
+color: darkgrey;
 text-decoration: blink;
 }
 .parrafo3
@@ -105,30 +114,28 @@ background: darkgoldenrod;
 color: darkred;
 text-decoration: underline wavy black; 
 
-
 }
+
 img
 {
-    text-align: center;
   border: 1px solid #ddd;
   border-radius: 69px;
   padding: 10px;
-  width: 40%;
+  width: 200px;
   
 
 }
 
-.informacion{
-    color: white;
-    margin: 30px;
-}
-.ima
-{
-    text-align: center;
-     border: 3px solid #ddd;
-  border-radius: 45px;
-  padding: 15px;
-  width: 40%;
+
+.verMas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
 }
 
-
+.articulos{
+    width: 50px;
+    padding: 10px;
+}
